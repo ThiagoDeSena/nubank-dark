@@ -32,37 +32,43 @@ class ContainerEmprestimo extends StatelessWidget {
                     )
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 14,
                 ),
-                Text(
+                const Text(
                   "Valor disponível",
                   style: TextStyle(color: Color(0xff9E9C9C)),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 16,
                 ),
-                Text(
+                const Text(
                   "R\$ 5.000,00",
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 16,
                       fontWeight: FontWeight.bold),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 16,
                 ),
-                ElevatedButton(
-                    style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStatePropertyAll(Colors.black)),
-                    onPressed: () {
-                      print("Apertou o botão para simular empréstimo");
-                    },
+                Container(
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(4),
+                      color: Colors.transparent,
+                      border: Border.all(color: Colors.white)),
+                  width: 271,
+                  height: 41,
+                  child: const Center(
                     child: Text(
                       "SIMULAR EMPRÉSTIMO",
-                      style: TextStyle(color: Colors.white),
-                    ))
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                )
               ]),
         ),
       ),

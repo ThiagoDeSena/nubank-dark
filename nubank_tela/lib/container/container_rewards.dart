@@ -14,6 +14,51 @@ class ContainerRewards extends StatelessWidget {
           borderRadius: BorderRadius.circular(5),
           color: const Color(0xff121212),
         ),
+        child: Padding(
+          padding: const EdgeInsets.only(left: 24),
+          child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Row(children: [
+                  Image.asset("imagens/present.png"),
+                  const SizedBox(
+                    width: 14,
+                  ),
+                  const Text(
+                    "Rewards",
+                    style: TextStyle(color: Colors.white),
+                  )
+                ]),
+                const SizedBox(
+                  height: 14,
+                ),
+                const Text(
+                  "Pague compras com pontos que nunca expiram",
+                  style: TextStyle(color: Colors.white, fontSize: 18),
+                ),
+                const SizedBox(
+                  height: 16,
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                      color: Colors.transparent,
+                      borderRadius: BorderRadius.circular(4),
+                      border: Border.all(color: Colors.white)),
+                  width: 114,
+                  height: 41,
+                  child: const Center(
+                    child: Text(
+                      "CONHECER",
+                      style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                )
+              ]),
+        ),
       ),
     );
   }
