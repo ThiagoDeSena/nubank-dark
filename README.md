@@ -20,6 +20,10 @@ Desenvolvimento da tela de entrado do aplicativo NuBank no modo Dark utilizando 
 
   ![image](https://github.com/ThiagoDeSena/nubank-dark/assets/110785400/7735fb1e-5e61-40f8-9547-fd9d33fcc255)
 
+- Funcionamento
+
+  https://www.linkedin.com/posts/thiago-de-sena-ab5b09179_flutter-mobile-app-activity-7207103534452899840-wXf5?utm_source=share&utm_medium=member_desktop
+
 
 ## Desenvolvedores
 
