@@ -1,4 +1,4 @@
-# Tela do Aplicativo NuBank no modelo Dark
+## Tela do Aplicativo NuBank no modelo Dark
 ![image](https://github.com/ThiagoDeSena/nubank-dark/assets/110785400/1c0be516-c857-4d33-9e21-4b8c18e0a8a1)
 
 ![Badge Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUÍDO&color=GREEN&style=for-the-badge)
@@ -9,7 +9,7 @@
 ## Descrição do projeto 
 
 
-Desenvolvimento da tela de entrado do aplicativo NuBank no modo Dark utilizando um desing de um projeto do Figma que pode ser acessado pelo [link](https://www.figma.com/community/file/1010233485805538860)
+Desenvolvimento da tela de entrado do aplicativo NuBank no modo Dark utilizando um design de um projeto do Figma que pode ser acessado pelo [link](https://www.figma.com/community/file/1010233485805538860)
 
 - Criação de um Splash:
 
